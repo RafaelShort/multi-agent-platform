@@ -6,20 +6,6 @@ Múltiplos agentes LLM trabalham em paralelo, coordenados por um orquestrador qu
 
 ---
 
-## 📑 Sumário
-
-- [Visão geral](#-visão-geral)
-- [Principais recursos](#-principais-recursos)
-- [Stack tecnológica](#-stack-tecnológica)
-- [Estrutura do projeto](#-estrutura-do-projeto)
-- [Pré-requisitos](#-pré-requisitos)
-- [Instalação e execução](#-instalação-e-execução)
-- [Como usar](#-como-usar)
-- [API REST](#-api-rest)
-- [Personas (agentes especializados)](#-personas-agentes-especializados)
-
----
-
 ## Visão geral
 
 O projeto simula uma **plataforma multi-agente** onde diferentes agentes de IA, cada um com sua especialidade, atendem requisições de chat. Em vez de um único modelo, o sistema distribui o trabalho entre agentes coordenados por um orquestrador, comunicando-se de forma assíncrona via Kafka.
